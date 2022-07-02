@@ -1,0 +1,82 @@
+div {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'ChosunCentennial';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0px;
+    font-family: 'ChosunCentennial';
+}
+
+.cart-background {
+    background-color: rgb(130, 150, 168);
+    width: 100%;
+    padding: 30px;
+}
+
+.title {
+    color:rgb(57, 79, 99);
+    font-size: 20px;
+    padding: 50px;
+}
+
+.cart-table {
+    background-color: white;
+    color:rgb(57, 79, 99);
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid rgb(130, 150, 168);
+}
+
+.cart-table th:nth-child(2) {
+    width: 400px;
+}
+
+.cell-long {
+    width: 700px;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+.custom-link:link{
+    color: violet;
+}
+.custom-link:visited{
+    color: red;
+}
+.choose-btn {
+    background-color: rgb(24, 39, 53);
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px;
+    padding: 10px;
+    /* display: block;
+    margin-left: auto; */
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.choose-btn:hover {
+    background-color: blue;
+}
+
+.choose-btn:active {
+    background-color: red;
+}

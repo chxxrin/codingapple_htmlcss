@@ -1,0 +1,66 @@
+.container {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-content {
+    width: 80%;
+    height: 200px;
+    float: left;
+}
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    float: left;
+
+}
+
+.name {
+    float: left;
+}
+
+.time {
+    float: left;
+    color: gray;
+}
+
+.detail-page {
+    color:gray;
+    margin: 30px;
+}
+
+.blog-profile {
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+.blog-name {
+    float: left;
+}
+
+.detail {
+    clear: both;
+}
+
+.detail-header {
+    margin: 30px;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
